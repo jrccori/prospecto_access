@@ -10,6 +10,9 @@ __v0_jsx-dev-runtime.ts
 .env*.local
 .env
 
+# Supabase local configuration and secrets
+supabase/
+
 # Common ignores
 node_modules
 .next/

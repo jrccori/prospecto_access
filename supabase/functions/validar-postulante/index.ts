@@ -28,7 +28,7 @@ const MAX_INTENTOS = 5 // intentos fallidos permitidos...
 const VENTANA_MIN = 10 // ...dentro de esta ventana (minutos)
 
 // --- CORS: limpieza de URL y permitir localhost en desarrollo ---
-let FRONTEND_ORIGIN = Deno.env.get('FRONTEND_ORIGIN') ?? 'http://localhost:3000'
+let FRONTEND_ORIGIN = Deno.env.get('FRONTEND_ORIGIN') ?? 'https://prospectounajma.netlify.app'
 if (FRONTEND_ORIGIN.endsWith('/')) {
   FRONTEND_ORIGIN = FRONTEND_ORIGIN.slice(0, -1)
 }
