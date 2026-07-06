@@ -14,7 +14,7 @@ interface FormularioAccesoProps {
   onValidado: (signedUrl: string) => void
 }
 
-const MODALIDADES: ModalidadValue[] = ['EXTRAORDINARIO', 'ORDINARIO', 'EXAMEN DE ADMISIÓN PRIMERA SELECCIÓN']
+const MODALIDADES: ModalidadValue[] = ['EXTRAORDINARIO', 'ORDINARIO']
 
 export function FormularioAcceso({ onValidado }: FormularioAccesoProps) {
   const [codigo, setCodigo] = useState('')
